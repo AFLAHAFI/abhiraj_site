@@ -180,7 +180,7 @@
     'WhatsApp inquiry': 'استفسار عبر واتساب',
     'View portfolio PDF': 'عرض ملف الأعمال PDF',
     'Architectural 3D visualization · Interiors · Exteriors': 'التصور المعماري ثلاثي الأبعاد · التصاميم الداخلية · التصاميم الخارجية',
-    'Portfolio collection / 2025': 'مجموعة الأعمال / 2025',
+    'Portfolio collection': 'مجموعة الأعمال',
     'Back to top': 'العودة إلى الأعلى',
 
     /* email dialog + lightbox */
@@ -371,8 +371,8 @@
     if ((m = text.match(/^←\s*(.+)$/))) { const t = tr(m[1]); return t == null ? null : '→ ' + t; }
     if ((m = text.match(/^(.+?)\s*↗$/))) { const t = tr(m[1]); return (t == null ? m[1] : t) + ' ↖'; }
     if ((m = text.match(/^(.+?)\s*↑$/))) { const t = tr(m[1]); return t == null ? null : t + ' ↑'; }
-    if ((m = text.match(/^Showing (\d+) project studies$/))) return 'عرض ' + m[1] + ' دراسة مشروع';
-    if ((m = text.match(/^(\d+) project studies$/))) return m[1] + ' دراسة مشروع';
+    if ((m = text.match(/^Showing (\d+) project studies$/))) return 'عرض ' + m[1] + ' من دراسات المشاريع';
+    if ((m = text.match(/^(\d+) project studies$/))) return m[1] + ' من دراسات المشاريع';
     if ((m = text.match(/^Loading frames · (\d+) \/ (\d+)$/))) return 'جارٍ تحميل الإطارات · ' + m[1] + ' / ' + m[2];
     if ((m = text.match(/^Next: (.+)$/))) { const t = tr(m[1]); return 'التالي: ' + (t == null ? m[1] : t); }
     if ((m = text.match(/^(.+) — Abhi Raj$/))) { const t = tr(m[1]); return t == null ? null : t + ' — أبهي راج'; }
