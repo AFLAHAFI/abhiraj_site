@@ -23,6 +23,10 @@ header nav a[aria-current="true"]:not(.pill){color:var(--accent)}
 .duo>.lane{grid-column:2}
 .duo>.side-end{grid-column:3}
 .side{min-width:0}
+/* soft edgeless vignette behind the text columns — keeps type readable where it
+   crosses the photo, without adding a visible panel, tint or glass */
+.duo>.side{position:relative}
+.duo>.side::before{content:"";position:absolute;inset:-8% -14%;z-index:-1;pointer-events:none;background:radial-gradient(closest-side,rgba(9,4,6,.62),rgba(9,4,6,0) 75%);filter:blur(10px)}
 @media(min-width:1600px){.scene{padding-inline:8vw}}
 
 .tag{display:flex;align-items:center;gap:10px;margin:0 0 18px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
