@@ -244,6 +244,9 @@
     "AI-assisted concept art": "فن تصوري بمساعدة الذكاء الاصطناعي",
     "Waterfront composition": "تكوين الواجهة البحرية",
     "Sky and water atmosphere": "أجواء السماء والماء",
+    'Atmosphere': 'أجواء',
+    'Bathroom with backlit mirror': 'حمّام بمرآة ذات إضاءة خلفية',
+    'Bedroom with timber panelling': 'غرفة نوم بتكسيات خشبية',
     'AI image generation': 'توليد الصور بالذكاء الاصطناعي',
 
     /* tools */
