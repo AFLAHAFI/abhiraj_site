@@ -232,3 +232,4 @@ html[lang=ar] .collage-title::first-letter{float:none;font-size:inherit;margin:0
 }
 @media(prefers-reduced-motion:reduce){.collage img{transition:none}.collage a:hover img{transform:none}}
 html[dir=rtl] .collage{direction:ltr}
+#tools .side>.section-title+.small{margin-top:16px}

@@ -1,1 +1,346 @@
-window.PROJECTS = [{"id": "project-03", "page": 3, "title": "Architectural Atmospheres", "category": "Exterior", "meta": "Architecture · Landscape", "description": "A collection of architectural and landscape studies exploring warm light, atmosphere and realistic presentation.", "technologies": ["D5 Render", "Lumion", "AI post-production"], "contribution": "Rendering and AI-assisted enhancement of downloaded 3ds Max scenes. Base models were sourced externally.", "features": ["Lighting and atmosphere", "Landscape composition", "AI-assisted editing"], "image": "assets/project-03.webp", "sheet": "Abhi-Raj-Portfolio.pdf#page=3", "gallery": ["assets/project-03.webp", "assets/view-03-2.webp", "assets/view-03-3.webp"], "categories": ["Exterior"]}, {"id": "project-04", "page": 4, "title": "Resort at Dusk", "category": "Exterior", "meta": "Hospitality · Resort", "description": "A resort environment brought to life through natural lighting, lush landscaping, refined materials and an inviting evening atmosphere.", "technologies": ["Lumion"], "contribution": "Visualization, scene composition and artistic enhancements by Abhi Raj; the base model was downloaded.", "features": ["Landscape integration", "Day-to-evening atmosphere", "Exterior material refinement"], "image": "assets/project-04.webp", "sheet": "Abhi-Raj-Portfolio.pdf#page=4", "gallery": ["assets/project-04.webp", "assets/view-04-2.webp"], "categories": ["Exterior", "Hospitality"]}, {"id": "project-05", "page": 5, "title": "Quiet Interior Moods", "category": "Interior", "meta": "Residential · Mood studies", "description": "A series of fully modeled interior scenes exploring how light, shadow, texture and composition can communicate a feeling as much as a space.", "technologies": ["3ds Max", "Corona Renderer"], "contribution": "Full 3D modeling, scene composition, lighting and rendering by Abhi Raj.", "features": ["Atmospheric lighting", "Material and reflection studies", "Spatial composition"], "image": "assets/project-05.webp", "sheet": "Abhi-Raj-Portfolio.pdf#page=5", "gallery": ["assets/project-05.webp", "assets/view-05-2.webp", "assets/view-05-3.webp"], "categories": ["Interior", "Residential"]}, {"id": "project-06", "page": 6, "title": "The Urban Skyline", "category": "Exterior", "meta": "Commercial · High-rise", "description": "A high-rise exterior study with detailed lighting, landscape context and material refinement, composed for a professional architectural presentation.", "technologies": ["Lumion"], "contribution": "Rendering, visualization settings and artistic enhancements by Abhi Raj; the base model was sourced online.", "features": ["Urban context", "Dusk lighting", "Exterior composition"], "image": "assets/project-06.webp", "sheet": "Abhi-Raj-Portfolio.pdf#page=6", "gallery": ["assets/project-06.webp", "assets/view-06-2.webp", "assets/view-06-3.webp"], "categories": ["Exterior", "Commercial"]}, {"id": "project-07", "page": 7, "title": "Café & Bar", "category": "Interior", "meta": "Hospitality · Commercial interior", "description": "A warm café and bar blending casual comfort with sophisticated detailing, custom furniture and carefully balanced mood lighting.", "technologies": ["3ds Max", "Corona Renderer"], "contribution": "Entire scene modeled and rendered by Abhi Raj.", "features": ["Detailed furniture modeling", "Commercial spatial planning", "Warm mood lighting"], "image": "assets/project-07.webp", "sheet": "Abhi-Raj-Portfolio.pdf#page=7", "gallery": ["assets/project-07.webp", "assets/view-07-2.webp"], "categories": ["Interior", "Commercial", "Hospitality"]}, {"id": "project-08", "page": 8, "title": "A Serene Private Suite", "category": "Interior", "meta": "Residential · Bedroom and bathroom", "description": "Bedroom and bathroom studies designed around modern comfort, considered furniture, warm materials and soft, realistic lighting.", "technologies": ["3ds Max", "Corona Renderer"], "contribution": "3D modeling and rendering, including layout, furniture, materials and lighting.", "features": ["Modern comfort", "Furniture and layout design", "Soft material response"], "image": "assets/project-08.webp", "sheet": "Abhi-Raj-Portfolio.pdf#page=8", "gallery": ["assets/project-08.webp", "assets/view-08-2.webp", "assets/view-08-3.webp"], "categories": ["Interior", "Residential"]}, {"id": "project-09", "page": 9, "title": "The Modern Kitchen", "category": "Interior", "meta": "Residential · Kitchen", "description": "Kitchen visualizations combining functional cabinetry, refined countertops and considered lighting with a warm, contemporary finish.", "technologies": ["3ds Max", "Corona Renderer"], "contribution": "Modeling, visualization and post-production, with attention to material realism and detail.", "features": ["Refined cabinetry", "Natural and artificial lighting", "Texture and shadow detail"], "image": "assets/project-09.webp", "sheet": "Abhi-Raj-Portfolio.pdf#page=9", "gallery": ["assets/project-09.webp", "assets/view-09-2.webp"], "categories": ["Interior", "Residential"]}, {"id": "project-10", "page": 10, "title": "Villa in the Landscape", "category": "Exterior", "meta": "Residential · Villa", "description": "A villa exterior presentation with natural light, refined materials, contextual landscaping and atmospheric effects.", "technologies": ["Lumion"], "contribution": "Rendering, scene composition and artistic enhancements by Abhi Raj; the villa base model was downloaded.", "features": ["Landscape and architecture", "Natural exterior lighting", "Material refinement"], "image": "assets/project-10.webp", "sheet": "Abhi-Raj-Portfolio.pdf#page=10", "gallery": ["assets/project-10.webp", "assets/view-10-2.webp"], "categories": ["Exterior", "Residential"]}, {"id": "project-11", "page": 11, "title": "High-Rise Hospitality", "category": "Interior", "meta": "Hospitality · Hotel interior", "description": "A contemporary hotel interior inside a high-rise building, developed through detailed architectural modeling, furniture and an immersive lighting treatment.", "technologies": ["3ds Max", "Lumion"], "contribution": "Full modeling and visualization workflow, from spatial layout to final rendering.", "features": ["Double-height interior", "Architectural and furniture detail", "Contextual lighting"], "image": "assets/project-11.webp", "sheet": "Abhi-Raj-Portfolio.pdf#page=11", "gallery": ["assets/project-11.webp", "assets/view-11-2.webp"], "categories": ["Interior", "Hospitality"]}, {"id": "project-12", "page": 12, "title": "Ajman Living Room", "category": "Interior", "meta": "Ajman · Residential", "description": "A modern living room in Ajman with a functional layout, detailed furniture and realistic materials, composed to feel warm and comfortable.", "technologies": ["3ds Max", "Corona Renderer"], "contribution": "Full modeling and rendering by Abhi Raj.", "features": ["Functional layout", "Realistic textures", "Natural light and shadows"], "image": "assets/project-12.webp", "sheet": "Abhi-Raj-Portfolio.pdf#page=12", "gallery": ["assets/project-12.webp", "assets/view-12-2.webp", "assets/view-12-3.webp"], "categories": ["Interior", "Residential"]}, {"id": "project-13", "page": 13, "title": "Living in Balance", "category": "Interior", "meta": "Residential · Living room", "description": "A balanced living space emphasizing careful furniture modeling, refined material choices and natural light, depth and texture.", "technologies": ["3ds Max", "Corona Renderer"], "contribution": "Full modeling, lighting and rendering by Abhi Raj.", "features": ["Balanced composition", "Furniture modeling", "Lighting and material precision"], "image": "assets/project-13.webp", "sheet": "Abhi-Raj-Portfolio.pdf#page=13", "gallery": ["assets/project-13.webp", "assets/view-13-2.webp", "assets/view-13-3.webp", "assets/view-13-4.webp"], "categories": ["Interior", "Residential"]}, {"id": "project-14", "page": 14, "title": "Sharjah Residence", "category": "Interior", "meta": "Sharjah · Residential", "description": "An elegant residential living room tailored to the client’s needs, refined through realistic rendering and detailed post-production.", "technologies": ["3ds Max", "Corona Renderer", "Photoshop"], "contribution": "Complete workflow from layout and modeling through rendering and Photoshop post-production.", "features": ["Client-focused interior", "Color and reflection refinement", "Complete visualization workflow"], "image": "assets/project-14.webp", "sheet": "Abhi-Raj-Portfolio.pdf#page=14", "gallery": ["assets/project-14.webp", "assets/view-14-2.webp", "assets/view-14-3.webp"], "categories": ["Interior", "Residential"]}, {"id": "project-15", "page": null, "title": "Villa Living Room", "category": "Interior", "meta": "Residential · Villa living", "description": "A bright formal living room with arched windows, sheer curtains, a crystal chandelier and soft sculptural seating, shown from several angles.", "technologies": ["3ds Max", "Corona Renderer", "Photoshop"], "contribution": "Full 3D modeling, materials, lighting and rendering by Abhi Raj G. N.", "features": ["Natural daylight through arched windows", "Crystal chandelier and ceiling detail", "Multiple camera angles of one space"], "image": "assets/gallery/villa-living-1.webp", "sheet": null, "gallery": ["assets/gallery/villa-living-1.webp", "assets/gallery/villa-living-2.webp", "assets/gallery/villa-living-3.webp"], "categories": ["Interior", "Residential"]}, {"id": "project-16", "page": null, "title": "Villa Majlis & Dining", "category": "Interior", "meta": "Residential · Majlis · Dining", "description": "A connected majlis, dining and TV lounge for a UAE villa, with wood and marble feature walls, warm cove lighting and statement chandeliers.", "technologies": ["3ds Max", "Corona Renderer", "Photoshop"], "contribution": "Full 3D modeling, materials, lighting and rendering by Abhi Raj G. N.", "features": ["Majlis seating layout", "Dining area with feature lighting", "Custom TV unit and wall panelling"], "image": "assets/gallery/villa-majlis.webp", "sheet": null, "gallery": ["assets/gallery/villa-majlis.webp", "assets/gallery/villa-dining.webp", "assets/gallery/villa-tv-dining.webp", "assets/gallery/villa-tv-unit.webp"], "categories": ["Interior", "Residential"]}, {"id": "project-17", "page": null, "title": "Private Home Bar", "category": "Interior", "meta": "Residential · Home bar", "description": "A dark, moody home bar with a sculpted counter, backlit marble wall, pendant lights and display shelving.", "technologies": ["3ds Max", "Corona Renderer", "Photoshop"], "contribution": "Visualization, lighting and rendering by Abhi Raj G. N.", "features": ["Backlit marble and glass display", "Low-key evening lighting", "Custom joinery and counter design"], "image": "assets/gallery/home-bar.webp", "sheet": null, "gallery": ["assets/gallery/home-bar.webp"], "categories": ["Interior", "Residential"]}, {"id": "project-18", "page": null, "title": "Contemporary Villa Kitchens", "category": "Interior", "meta": "Residential · Kitchen", "description": "Kitchen design options for a villa — ground-floor and top-floor layouts in grey-blue, white and timber finishes with integrated appliances.", "technologies": ["3ds Max", "Corona Renderer"], "contribution": "Kitchen design, custom cabinet modeling and rendering by Abhi Raj G. N.", "features": ["Custom cabinet and storage design", "Material and colour options", "Integrated appliances and lighting"], "image": "assets/gallery/kitchen-gf-1.webp", "sheet": null, "gallery": ["assets/gallery/kitchen-gf-1.webp", "assets/gallery/kitchen-gf-2.webp", "assets/gallery/kitchen-top.webp"], "categories": ["Interior", "Residential"]}, {"id": "project-19", "page": null, "title": "Skyline Restaurant", "category": "Interior", "meta": "Hospitality · Restaurant", "description": "A high-rise restaurant with full-height glazing, city views, a circular planted chandelier and warm timber details.", "technologies": ["3ds Max", "Corona Renderer"], "contribution": "Scene setup, lighting (Corona LightMix) and rendering by Abhi Raj G. N.", "features": ["Daylight and city-view glazing", "Planted feature chandelier", "Interactive LightMix lighting control"], "image": "assets/gallery/rooftop-restaurant.webp", "sheet": null, "gallery": ["assets/gallery/rooftop-restaurant.webp"], "categories": ["Interior", "Hospitality", "Commercial"]}, {"id": "project-20", "page": null, "title": "Garden Villa, Day & Night", "category": "Exterior", "meta": "Residential · Villa exterior", "description": "A single-storey garden villa shown in daylight and at night, with stone walls, a pool deck and layered landscaping.", "technologies": ["3ds Max", "D5 Render", "AI post-production"], "contribution": "Visualization, lighting and post-production by Abhi Raj G. N.", "features": ["Day and night versions of one scene", "Landscape and pool composition", "Warm interior glow at night"], "image": "assets/gallery/garden-villa-day.webp", "sheet": null, "gallery": ["assets/gallery/garden-villa-day.webp", "assets/gallery/garden-villa-night.webp"], "categories": ["Exterior", "Residential"]}, {"id": "project-21", "page": null, "title": "Residential Community", "category": "Exterior", "meta": "Residential · Masterplan", "description": "A street-level view of a low-rise residential community, framed by mature trees, a clear sky and landscaped verges.", "technologies": ["3ds Max", "D5 Render"], "contribution": "Visualization, lighting and rendering by Abhi Raj G. N.", "features": ["Streetscape and landscape", "Natural daylight", "Ultra high-resolution output"], "image": "assets/gallery/community-exterior.webp", "sheet": null, "gallery": ["assets/gallery/community-exterior.webp"], "categories": ["Exterior", "Residential"]}, {"id": "project-22", "page": null, "title": "Glass Residential Tower", "category": "Exterior", "meta": "Commercial · High-rise", "description": "A glass-clad residential tower at dusk, with a lit facade, palm-lined drop-off and the city skyline behind.", "technologies": ["3ds Max", "Corona Renderer", "Photoshop"], "contribution": "Visualization, lighting and rendering by Abhi Raj G. N.", "features": ["Dusk facade lighting", "Glass and reflection detail", "Urban context and landscape"], "image": "assets/gallery/glass-tower.webp", "sheet": null, "gallery": ["assets/gallery/glass-tower.webp"], "categories": ["Exterior", "Commercial"]}, {"id": "project-23", "page": null, "title": "Waterfront Landmark Concept", "category": "Exterior", "meta": "Concept · Waterfront", "description": "A concept image of a waterfront skyline with a landmark arch tower, yachts and open sea, created with AI-assisted tools.", "technologies": ["AI image generation", "Photoshop"], "contribution": "Concept direction and AI-assisted image creation by Abhi Raj G. N.", "features": ["AI-assisted concept art", "Waterfront composition", "Sky and water atmosphere"], "image": "assets/gallery/waterfront-concept.webp", "sheet": null, "gallery": ["assets/gallery/waterfront-concept.webp"], "categories": ["Exterior", "Commercial"]}];
+window.PROJECTS = [
+  {
+    "id": "project-03",
+    "page": 3,
+    "title": "Architectural Atmospheres",
+    "category": "Exterior",
+    "meta": "Architecture · Landscape",
+    "description": "A collection of architectural and landscape studies exploring warm light, atmosphere and realistic presentation.",
+    "technologies": [
+      "D5 Render",
+      "Lumion",
+      "AI post-production"
+    ],
+    "contribution": "Rendering and AI-assisted enhancement of downloaded 3ds Max scenes. Base models were sourced externally.",
+    "features": [
+      "Lighting and atmosphere",
+      "Landscape composition",
+      "AI-assisted editing"
+    ],
+    "image": "assets/gallery/glass-tower.webp",
+    "sheet": "Abhi-Raj-Portfolio.pdf#page=3",
+    "gallery": [
+      "assets/gallery/glass-tower.webp",
+      "assets/gallery/waterfront-concept.webp",
+      "assets/view-03-3.webp"
+    ],
+    "categories": [
+      "Exterior"
+    ]
+  },
+  {
+    "id": "project-04",
+    "page": 4,
+    "title": "Resort at Dusk",
+    "category": "Exterior",
+    "meta": "Hospitality · Resort",
+    "description": "A resort environment brought to life through natural lighting, lush landscaping, refined materials and an inviting evening atmosphere.",
+    "technologies": [
+      "Lumion"
+    ],
+    "contribution": "Visualization, scene composition and artistic enhancements by Abhi Raj; the base model was downloaded.",
+    "features": [
+      "Landscape integration",
+      "Day-to-evening atmosphere",
+      "Exterior material refinement"
+    ],
+    "image": "assets/gallery/garden-villa-night.webp",
+    "sheet": "Abhi-Raj-Portfolio.pdf#page=4",
+    "gallery": [
+      "assets/gallery/garden-villa-night.webp",
+      "assets/gallery/garden-villa-day.webp"
+    ],
+    "categories": [
+      "Exterior",
+      "Hospitality"
+    ]
+  },
+  {
+    "id": "project-05",
+    "page": 5,
+    "title": "Quiet Interior Moods",
+    "category": "Interior",
+    "meta": "Residential · Mood studies",
+    "description": "A series of fully modeled interior scenes exploring how light, shadow, texture and composition can communicate a feeling as much as a space.",
+    "technologies": [
+      "3ds Max",
+      "Corona Renderer"
+    ],
+    "contribution": "Full 3D modeling, scene composition, lighting and rendering by Abhi Raj.",
+    "features": [
+      "Atmospheric lighting",
+      "Material and reflection studies",
+      "Spatial composition"
+    ],
+    "image": "assets/gallery/reading-corner.webp",
+    "sheet": "Abhi-Raj-Portfolio.pdf#page=5",
+    "gallery": [
+      "assets/gallery/reading-corner.webp",
+      "assets/gallery/lounge-console.webp",
+      "assets/view-05-3.webp"
+    ],
+    "categories": [
+      "Interior",
+      "Residential"
+    ]
+  },
+  {
+    "id": "project-06",
+    "page": 6,
+    "title": "The Urban Skyline",
+    "category": "Exterior",
+    "meta": "Commercial · High-rise",
+    "description": "A high-rise exterior study with detailed lighting, landscape context and material refinement, composed for a professional architectural presentation.",
+    "technologies": [
+      "Lumion"
+    ],
+    "contribution": "Rendering, visualization settings and artistic enhancements by Abhi Raj; the base model was sourced online.",
+    "features": [
+      "Urban context",
+      "Dusk lighting",
+      "Exterior composition"
+    ],
+    "image": "assets/project-06.webp",
+    "sheet": "Abhi-Raj-Portfolio.pdf#page=6",
+    "gallery": [
+      "assets/project-06.webp",
+      "assets/view-06-2.webp",
+      "assets/view-06-3.webp"
+    ],
+    "categories": [
+      "Exterior",
+      "Commercial"
+    ]
+  },
+  {
+    "id": "project-07",
+    "page": 7,
+    "title": "Café & Bar",
+    "category": "Interior",
+    "meta": "Hospitality · Commercial interior",
+    "description": "A warm café and bar blending casual comfort with sophisticated detailing, custom furniture and carefully balanced mood lighting.",
+    "technologies": [
+      "3ds Max",
+      "Corona Renderer"
+    ],
+    "contribution": "Entire scene modeled and rendered by Abhi Raj.",
+    "features": [
+      "Detailed furniture modeling",
+      "Commercial spatial planning",
+      "Warm mood lighting"
+    ],
+    "image": "assets/gallery/home-bar.webp",
+    "sheet": "Abhi-Raj-Portfolio.pdf#page=7",
+    "gallery": [
+      "assets/gallery/home-bar.webp",
+      "assets/view-07-2.webp"
+    ],
+    "categories": [
+      "Interior",
+      "Commercial",
+      "Hospitality"
+    ]
+  },
+  {
+    "id": "project-08",
+    "page": 8,
+    "title": "A Serene Private Suite",
+    "category": "Interior",
+    "meta": "Residential · Bedroom and bathroom",
+    "description": "Bedroom and bathroom studies designed around modern comfort, considered furniture, warm materials and soft, realistic lighting.",
+    "technologies": [
+      "3ds Max",
+      "Corona Renderer"
+    ],
+    "contribution": "3D modeling and rendering, including layout, furniture, materials and lighting.",
+    "features": [
+      "Modern comfort",
+      "Furniture and layout design",
+      "Soft material response"
+    ],
+    "image": "assets/gallery/bedroom-1.webp",
+    "sheet": "Abhi-Raj-Portfolio.pdf#page=8",
+    "gallery": [
+      "assets/gallery/bedroom-1.webp",
+      "assets/gallery/bedroom-2.webp",
+      "assets/gallery/bathroom.webp"
+    ],
+    "categories": [
+      "Interior",
+      "Residential"
+    ]
+  },
+  {
+    "id": "project-09",
+    "page": 9,
+    "title": "The Modern Kitchen",
+    "category": "Interior",
+    "meta": "Residential · Kitchen",
+    "description": "Kitchen visualizations combining functional cabinetry, refined countertops and considered lighting with a warm, contemporary finish.",
+    "technologies": [
+      "3ds Max",
+      "Corona Renderer"
+    ],
+    "contribution": "Modeling, visualization and post-production, with attention to material realism and detail.",
+    "features": [
+      "Refined cabinetry",
+      "Natural and artificial lighting",
+      "Texture and shadow detail"
+    ],
+    "image": "assets/gallery/kitchen-top.webp",
+    "sheet": "Abhi-Raj-Portfolio.pdf#page=9",
+    "gallery": [
+      "assets/gallery/kitchen-top.webp",
+      "assets/gallery/kitchen-gf-1.webp"
+    ],
+    "categories": [
+      "Interior",
+      "Residential"
+    ]
+  },
+  {
+    "id": "project-10",
+    "page": 10,
+    "title": "Villa in the Landscape",
+    "category": "Exterior",
+    "meta": "Residential · Villa",
+    "description": "A villa exterior presentation with natural light, refined materials, contextual landscaping and atmospheric effects.",
+    "technologies": [
+      "Lumion"
+    ],
+    "contribution": "Rendering, scene composition and artistic enhancements by Abhi Raj; the villa base model was downloaded.",
+    "features": [
+      "Landscape and architecture",
+      "Natural exterior lighting",
+      "Material refinement"
+    ],
+    "image": "assets/gallery/community-exterior.webp",
+    "sheet": "Abhi-Raj-Portfolio.pdf#page=10",
+    "gallery": [
+      "assets/gallery/community-exterior.webp",
+      "assets/view-10-2.webp"
+    ],
+    "categories": [
+      "Exterior",
+      "Residential"
+    ]
+  },
+  {
+    "id": "project-11",
+    "page": 11,
+    "title": "High-Rise Hospitality",
+    "category": "Interior",
+    "meta": "Hospitality · Hotel interior",
+    "description": "A contemporary hotel interior inside a high-rise building, developed through detailed architectural modeling, furniture and an immersive lighting treatment.",
+    "technologies": [
+      "3ds Max",
+      "Lumion"
+    ],
+    "contribution": "Full modeling and visualization workflow, from spatial layout to final rendering.",
+    "features": [
+      "Double-height interior",
+      "Architectural and furniture detail",
+      "Contextual lighting"
+    ],
+    "image": "assets/gallery/rooftop-restaurant.webp",
+    "sheet": "Abhi-Raj-Portfolio.pdf#page=11",
+    "gallery": [
+      "assets/gallery/rooftop-restaurant.webp",
+      "assets/view-11-2.webp"
+    ],
+    "categories": [
+      "Interior",
+      "Hospitality"
+    ]
+  },
+  {
+    "id": "project-12",
+    "page": 12,
+    "title": "Ajman Living Room",
+    "category": "Interior",
+    "meta": "Ajman · Residential",
+    "description": "A modern living room in Ajman with a functional layout, detailed furniture and realistic materials, composed to feel warm and comfortable.",
+    "technologies": [
+      "3ds Max",
+      "Corona Renderer"
+    ],
+    "contribution": "Full modeling and rendering by Abhi Raj.",
+    "features": [
+      "Functional layout",
+      "Realistic textures",
+      "Natural light and shadows"
+    ],
+    "image": "assets/gallery/villa-tv-unit.webp",
+    "sheet": "Abhi-Raj-Portfolio.pdf#page=12",
+    "gallery": [
+      "assets/gallery/villa-tv-unit.webp",
+      "assets/gallery/villa-dining.webp",
+      "assets/gallery/villa-majlis.webp",
+      "assets/gallery/villa-tv-dining.webp"
+    ],
+    "categories": [
+      "Interior",
+      "Residential"
+    ]
+  },
+  {
+    "id": "project-13",
+    "page": 13,
+    "title": "Living in Balance",
+    "category": "Interior",
+    "meta": "Residential · Living room",
+    "description": "A balanced living space emphasizing careful furniture modeling, refined material choices and natural light, depth and texture.",
+    "technologies": [
+      "3ds Max",
+      "Corona Renderer"
+    ],
+    "contribution": "Full modeling, lighting and rendering by Abhi Raj.",
+    "features": [
+      "Balanced composition",
+      "Furniture modeling",
+      "Lighting and material precision"
+    ],
+    "image": "assets/project-13.webp",
+    "sheet": "Abhi-Raj-Portfolio.pdf#page=13",
+    "gallery": [
+      "assets/project-13.webp",
+      "assets/view-13-2.webp",
+      "assets/view-13-3.webp",
+      "assets/view-13-4.webp"
+    ],
+    "categories": [
+      "Interior",
+      "Residential"
+    ]
+  },
+  {
+    "id": "project-14",
+    "page": 14,
+    "title": "Sharjah Residence",
+    "category": "Interior",
+    "meta": "Sharjah · Residential",
+    "description": "An elegant residential living room tailored to the client’s needs, refined through realistic rendering and detailed post-production.",
+    "technologies": [
+      "3ds Max",
+      "Corona Renderer",
+      "Photoshop"
+    ],
+    "contribution": "Complete workflow from layout and modeling through rendering and Photoshop post-production.",
+    "features": [
+      "Client-focused interior",
+      "Color and reflection refinement",
+      "Complete visualization workflow"
+    ],
+    "image": "assets/gallery/villa-living-2.webp",
+    "sheet": "Abhi-Raj-Portfolio.pdf#page=14",
+    "gallery": [
+      "assets/gallery/villa-living-2.webp",
+      "assets/gallery/villa-living-1.webp",
+      "assets/gallery/villa-living-3.webp"
+    ],
+    "categories": [
+      "Interior",
+      "Residential"
+    ]
+  }
+];
