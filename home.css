@@ -187,7 +187,12 @@ html[dir=rtl] .role ul{padding-left:0;padding-right:18px}
 
 /* Tools: why each one is used */
 .tool-grid{align-items:start}
-.tool .tool-why{margin:-4px 0 0;max-width:22ch;font-size:clamp(12px,min(.9vw,1.9vh),14px);line-height:1.5;color:var(--soft);text-align:center}
+.tool-reasons{list-style:none;margin:clamp(14px,2.4vh,24px) 0;padding:0;display:grid;gap:clamp(7px,1.3vh,12px);max-width:480px}
+.tool-reasons li{display:grid;grid-template-columns:minmax(0,9.5em) minmax(0,1fr);gap:4px 14px;padding-bottom:clamp(7px,1.3vh,12px);border-bottom:1px solid rgba(47,200,255,.18);font-size:clamp(12px,min(.95vw,1.8vh),14px);line-height:1.45}
+.tool-reasons li:last-child{border-bottom:0;padding-bottom:0}
+.tool-reasons b{color:var(--accent);font-weight:600}
+.tool-reasons span{color:var(--soft)}
+@media(max-width:560px){.tool-reasons li{grid-template-columns:1fr}}
 
 /* Gallery collage (scattered photo wall) */
 .scene.collage-scene{display:block;padding-block:clamp(64px,10vh,104px)}
@@ -221,10 +226,7 @@ html[lang=ar] .collage-title::first-letter{float:none;font-size:inherit;margin:0
 .collage-text h3{margin:0 0 12px;font-size:clamp(18px,1.7vw,26px);font-weight:600;letter-spacing:-.02em}
 @media(max-width:1100px){.collage-top{grid-template-columns:1fr auto}.collage-words{display:none}}
 @media(max-width:700px){
-  .collage{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:30vw;grid-auto-flow:dense;gap:8px}
-  .collage a[class]{grid-column:auto;grid-row:auto}
-  .collage .c1,.collage .c6,.collage .c7,.collage .c12{grid-row:span 2}
-  .collage .c10,.collage .c9{grid-column:span 2}
+  .collage{grid-auto-rows:9vw;gap:4px}
   .collage-foot{flex-direction:column;align-items:flex-start}
   .collage-text{text-align:start}
 }
