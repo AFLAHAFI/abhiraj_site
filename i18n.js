@@ -244,6 +244,8 @@
     "AI-assisted concept art": "فن تصوري بمساعدة الذكاء الاصطناعي",
     "Waterfront composition": "تكوين الواجهة البحرية",
     "Sky and water atmosphere": "أجواء السماء والماء",
+    'Architectural visualization projects by Abhi Raj G. N.: interior and exterior 3D renders of villas, kitchens, bedrooms, hotels and landmarks in the UAE.': 'مشاريع تصوير معماري من أبهي راج ج. ن.: صور ثلاثية الأبعاد داخلية وخارجية لفلل ومطابخ وغرف نوم وفنادق ومعالم في الإمارات.',
+    'Architectural 3D visualization project by Abhi Raj G. N., with renders, tools used and project details.': 'مشروع تصوير معماري ثلاثي الأبعاد من أبهي راج ج. ن.، مع الصور والأدوات المستخدمة وتفاصيل المشروع.',
     'Atmosphere': 'أجواء',
     'Bathroom with backlit mirror': 'حمّام بمرآة ذات إضاءة خلفية',
     'Bedroom with timber panelling': 'غرفة نوم بتكسيات خشبية',
